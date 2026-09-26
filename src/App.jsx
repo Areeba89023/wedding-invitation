@@ -1,9 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
+
 import Mehndi from "./pages/Mehndi";
 import Mehndi2 from "./pages/Mehndi2";
+
 import Baraat from "./pages/Baraat";
+
 import Valima from "./pages/Valima";
 
 function App() {
@@ -13,7 +16,7 @@ function App() {
 
         {/* HOME */}
         <Route
-          path="/home-wedding-2026-1187"
+          path="/"
           element={<Home />}
         />
 
